@@ -3,10 +3,10 @@
 1 liter = 0.264 gallon
 1 kilogram = 2.204 pound
 */
-enum UnitToConvert {
-  MeterToFeet = 3.281,
-  LiterToGallon = 0.264,
-  KilogrammToPound = 2.204,
+const UnitToConvert = {
+  MeterToFeet: 3.281,
+  LiterToGallon: 0.264,
+  KilogrammToPound : 2.204,
 }
 
 interface Units {
@@ -45,7 +45,7 @@ function getConvertedNum(meter: string): Units {
   } catch (err) {
     console.error('ERROR', err);
     //SOLVE: Function lacks ending return statement and return type does not include 'undefined'
-    throw new Error(err)
+    throw(err)
   }
 }
 
