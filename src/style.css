@@ -1,0 +1,103 @@
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+/* remove up/down arrows in a number input type */
+/* for Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* for Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.container {
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 550px;
+  max-height: 730px;
+  background-color: #1f2937;
+  font-family: 'Roboto', sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 800;
+}
+
+.flex-layout {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.main-content {
+  height: 300px;
+  color: #ffffff;
+  background-color: #6943ff;
+}
+.heading {
+  font-size: 28px;
+  line-height: 38px;
+  letter-spacing: -3%;
+}
+
+.num-to-convert {
+  width: 120px;
+  padding: 5px 10px;
+  text-align: center;
+  border-radius: 5px;
+  border: 2px solid #b295ff;
+  font-size: 58px;
+  line-height: 25px;
+  background-color: #6943ff;
+  color: white;
+}
+
+.input-btn {
+  /* Layout for button box*/
+  width: 117px;
+  height: 42px;
+  border-radius: 5px;
+  border: none;
+  background: #ffffff;
+  box-shadow: 0px 1px 2px 0px #0000000d;
+  
+  /*typography for button content*/
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 10px 20px;
+}
+
+.cards {
+  height: 445px;
+  padding: 20px 0;
+}
+
+.card {
+  height: 100px;
+  width: 500px;
+  color: #ffffff;
+  border-top-left-radius: 5px;
+  background: #273549;
+  padding: 10px 20px;
+}
+
+.card h2 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 20px;
+  color: #ccc1ff;
+}
+
+.card p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+
