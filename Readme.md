@@ -4,6 +4,7 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.8-blue)](https://www.typescriptlang.org/)
 [![HTML5](https://img.shields.io/badge/HTML-5-orange)](https://developer.mozilla.org/en-US/docs/Web/HTML)
 [![CSS3](https://img.shields.io/badge/CSS-3-blue)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/87e62455-b35b-496f-9d8b-f42c563981c3/deploy-status)](https://app.netlify.com/sites/magnificent-naiad-d70125/deploys)
 
 A simple, elegant unit conversion web application that transforms between metric and imperial units for length, volume, and mass.
 
